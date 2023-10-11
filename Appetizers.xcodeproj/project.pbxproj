@@ -25,6 +25,7 @@
 		4F84A2D22AD6A7C40060FDF5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2D12AD6A7C40060FDF5 /* Alert.swift */; };
 		4F84A2D62AD6DC340060FDF5 /* color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2D52AD6DC340060FDF5 /* color+Ext.swift */; };
 		4F84A2D82AD6DE670060FDF5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2D72AD6DE670060FDF5 /* LoadingView.swift */; };
+		4F84A2DA2AD6E4580060FDF5 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2D92AD6E4580060FDF5 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		4F84A2D12AD6A7C40060FDF5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		4F84A2D52AD6DC340060FDF5 /* color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "color+Ext.swift"; sourceTree = "<group>"; };
 		4F84A2D72AD6DE670060FDF5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4F84A2D92AD6E4580060FDF5 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		4F84A2882AD672B40060FDF5 = {
 			isa = PBXGroup;
 			children = (
+				4F84A2D92AD6E4580060FDF5 /* RemoteImage.swift */,
 				4F84A2932AD672B40060FDF5 /* Appetizers */,
 				4F84A2A42AD672B60060FDF5 /* AppetizersTests */,
 				4F84A2AE2AD672B60060FDF5 /* AppetizersUITests */,
@@ -323,6 +326,7 @@
 				4F84A2C12AD678670060FDF5 /* AppetizerListView.swift in Sources */,
 				4F84A2CA2AD6947E0060FDF5 /* NetworkManager.swift in Sources */,
 				4F84A2972AD672B40060FDF5 /* AppetizerTabView.swift in Sources */,
+				4F84A2DA2AD6E4580060FDF5 /* RemoteImage.swift in Sources */,
 				4F84A2D22AD6A7C40060FDF5 /* Alert.swift in Sources */,
 				4F84A2952AD672B40060FDF5 /* AppetizersApp.swift in Sources */,
 				4F84A2D82AD6DE670060FDF5 /* LoadingView.swift in Sources */,

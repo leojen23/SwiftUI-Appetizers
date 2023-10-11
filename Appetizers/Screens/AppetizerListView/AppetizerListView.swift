@@ -10,7 +10,8 @@ struct AppetizerListView: View {
             NavigationView {
                 List(viewModel.appetizers) { appetizer in
                     AppetizerListItem(appetizer: appetizer)
-                }.navigationTitle("🌮 Appetizers" )
+                }
+                .navigationTitle("🌮 Appetizers" )
             }
             .onAppear {
                 viewModel.getAppetizers()
