@@ -42,7 +42,7 @@ final class NetworkManager {
             
             do {
                 let decoder = JSONDecoder()
-                let decodedResponse = try decoder.decode(AppetizerResponse.self, from: data)
+                let decodedResponse = try decoder.decode(AppetizerResponse.self, from: <#T##Data#>)
                 completed(.success(decodedResponse.request))
             } catch {
                 completed(.failure(.invalidData))
