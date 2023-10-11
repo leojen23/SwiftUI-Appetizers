@@ -17,6 +17,7 @@
 		4F84A2BF2AD678470060FDF5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2BE2AD678470060FDF5 /* AccountView.swift */; };
 		4F84A2C12AD678670060FDF5 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2C02AD678670060FDF5 /* AppetizerListView.swift */; };
 		4F84A2C32AD678710060FDF5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2C22AD678710060FDF5 /* OrderView.swift */; };
+		4F84A2C62AD6816E0060FDF5 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2C52AD6816E0060FDF5 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		4F84A2BE2AD678470060FDF5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		4F84A2C02AD678670060FDF5 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		4F84A2C22AD678710060FDF5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		4F84A2C52AD6816E0060FDF5 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		4F84A2932AD672B40060FDF5 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				4F84A2C42AD67EA30060FDF5 /* Models */,
 				4F84A2942AD672B40060FDF5 /* AppetizersApp.swift */,
 				4F84A2962AD672B40060FDF5 /* AppetizerTabView.swift */,
 				4F84A2BE2AD678470060FDF5 /* AccountView.swift */,
@@ -134,6 +137,14 @@
 				4F84A2B12AD672B60060FDF5 /* AppetizersUITestsLaunchTests.swift */,
 			);
 			path = AppetizersUITests;
+			sourceTree = "<group>";
+		};
+		4F84A2C42AD67EA30060FDF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F84A2C52AD6816E0060FDF5 /* Appetizer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F84A2C62AD6816E0060FDF5 /* Appetizer.swift in Sources */,
 				4F84A2BF2AD678470060FDF5 /* AccountView.swift in Sources */,
 				4F84A2C12AD678670060FDF5 /* AppetizerListView.swift in Sources */,
 				4F84A2972AD672B40060FDF5 /* AppetizerTabView.swift in Sources */,

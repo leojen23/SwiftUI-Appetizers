@@ -20,7 +20,7 @@ struct AppetizerTabView: View {
                     Image(systemName: "person")
                     Text("Account")
                 }
-            AppetizerListView()
+            OrderView()
                 .tabItem {
                     Image(systemName: "bag")
                     Text("Order")
