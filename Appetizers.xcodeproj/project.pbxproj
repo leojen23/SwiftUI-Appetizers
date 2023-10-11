@@ -21,6 +21,7 @@
 		4F84A2C82AD693050060FDF5 /* AppetizerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2C72AD693050060FDF5 /* AppetizerListItem.swift */; };
 		4F84A2CA2AD6947E0060FDF5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2C92AD6947E0060FDF5 /* NetworkManager.swift */; };
 		4F84A2CC2AD696020060FDF5 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2CB2AD696020060FDF5 /* APError.swift */; };
+		4F84A2D02AD69FC40060FDF5 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2CF2AD69FC40060FDF5 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		4F84A2C72AD693050060FDF5 /* AppetizerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListItem.swift; sourceTree = "<group>"; };
 		4F84A2C92AD6947E0060FDF5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4F84A2CB2AD696020060FDF5 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		4F84A2CF2AD69FC40060FDF5 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +110,11 @@
 		4F84A2932AD672B40060FDF5 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				4F84A2CD2AD69F890060FDF5 /* Screens */,
 				4F84A2C42AD67EA30060FDF5 /* Models */,
 				4F84A2942AD672B40060FDF5 /* AppetizersApp.swift */,
 				4F84A2962AD672B40060FDF5 /* AppetizerTabView.swift */,
 				4F84A2BE2AD678470060FDF5 /* AccountView.swift */,
-				4F84A2C02AD678670060FDF5 /* AppetizerListView.swift */,
 				4F84A2C22AD678710060FDF5 /* OrderView.swift */,
 				4F84A2C72AD693050060FDF5 /* AppetizerListItem.swift */,
 				4F84A2982AD672B60060FDF5 /* Assets.xcassets */,
@@ -154,6 +156,23 @@
 				4F84A2C52AD6816E0060FDF5 /* Appetizer.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4F84A2CD2AD69F890060FDF5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4F84A2CE2AD69F9C0060FDF5 /* AppetizerListView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4F84A2CE2AD69F9C0060FDF5 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				4F84A2C02AD678670060FDF5 /* AppetizerListView.swift */,
+				4F84A2CF2AD69FC40060FDF5 /* AppetizerListViewModel.swift */,
+			);
+			path = AppetizerListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +308,7 @@
 				4F84A2C62AD6816E0060FDF5 /* Appetizer.swift in Sources */,
 				4F84A2CC2AD696020060FDF5 /* APError.swift in Sources */,
 				4F84A2BF2AD678470060FDF5 /* AccountView.swift in Sources */,
+				4F84A2D02AD69FC40060FDF5 /* AppetizerListViewModel.swift in Sources */,
 				4F84A2C82AD693050060FDF5 /* AppetizerListItem.swift in Sources */,
 				4F84A2C12AD678670060FDF5 /* AppetizerListView.swift in Sources */,
 				4F84A2CA2AD6947E0060FDF5 /* NetworkManager.swift in Sources */,
