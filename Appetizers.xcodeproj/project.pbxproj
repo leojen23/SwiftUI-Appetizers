@@ -12,6 +12,7 @@
 		4F60805F2AD80FD200C15F82 /* XDimissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60805E2AD80FD200C15F82 /* XDimissButton.swift */; };
 		4F6080612AD817AF00C15F82 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6080602AD817AF00C15F82 /* AccountViewModel.swift */; };
 		4F6080632AD81EAD00C15F82 /* String+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6080622AD81EAD00C15F82 /* String+ext.swift */; };
+		4F6080652AD823F100C15F82 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6080642AD823F100C15F82 /* User.swift */; };
 		4F84A2952AD672B40060FDF5 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2942AD672B40060FDF5 /* AppetizersApp.swift */; };
 		4F84A2972AD672B40060FDF5 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A2962AD672B40060FDF5 /* AppetizerTabView.swift */; };
 		4F84A2992AD672B60060FDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F84A2982AD672B60060FDF5 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		4F60805E2AD80FD200C15F82 /* XDimissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDimissButton.swift; sourceTree = "<group>"; };
 		4F6080602AD817AF00C15F82 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		4F6080622AD81EAD00C15F82 /* String+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ext.swift"; sourceTree = "<group>"; };
+		4F6080642AD823F100C15F82 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4F84A2912AD672B40060FDF5 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F84A2942AD672B40060FDF5 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		4F84A2962AD672B40060FDF5 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				4F84A2C52AD6816E0060FDF5 /* Appetizer.swift */,
+				4F6080642AD823F100C15F82 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				4F6080612AD817AF00C15F82 /* AccountViewModel.swift in Sources */,
 				4F84A2C82AD693050060FDF5 /* AppetizerListItem.swift in Sources */,
 				4F84A2D62AD6DC340060FDF5 /* color+Ext.swift in Sources */,
+				4F6080652AD823F100C15F82 /* User.swift in Sources */,
 				4F60805D2AD80EB600C15F82 /* APButton.swift in Sources */,
 				4F84A2C12AD678670060FDF5 /* AppetizerListView.swift in Sources */,
 				4F84A2CA2AD6947E0060FDF5 /* NetworkManager.swift in Sources */,

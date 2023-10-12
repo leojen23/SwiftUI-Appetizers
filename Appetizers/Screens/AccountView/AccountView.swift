@@ -12,18 +12,18 @@ struct AccountView: View {
     @StateObject var viewModel = AccountViewModel()
     
     
-    
     var body: some View {
         NavigationView {
+            
             Form {
                 Section(header: Text("Personal Info")) {
-                    TextField("First Name", text: $viewModel.firstName)
-                    TextField("Last Name", text: $viewModel.lastName)
-                    TextField("E-mail", text: $viewModel.email)
+                    TextField("First Name", text: $viewModel.user.firstName)
+                    TextField("Last Name", text: $viewModel.user.lastName)
+                    TextField("E-mail", text: $viewModel.user.email)
                         .keyboardType(.emailAddress)
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                         .disableAutocorrection(true)
-                    DatePicker("Birthday", selection: $viewModel.birthDate, displayedComponents: .date)
+                    DatePicker("Birthday", selection: $viewModel.user.birthDate, displayedComponents: .date)
                     Button(action: {
                         viewModel.saveChanges()
                     }, label: {
@@ -31,16 +31,24 @@ struct AccountView: View {
                     })
                 }
                 
+                
                 Section(header: Text("Requests")) {
-                    Toggle("Extra Napkins", isOn: $viewModel.extraNapkins)
-                    Toggle("Frequent Refills", isOn: $viewModel.frequentRefills)
+                    Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
+                    Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
                 }.toggleStyle(SwitchToggleStyle(tint: Color.brandPrimary))
+                
+                    .navigationTitle("😉 Account")
             }
-            .navigationTitle("😉 Account")
-        }.alert(item: $viewModel.alertItem) { alertItem in
-            Alert(title: alertItem.title,
-                  message: alertItem.message,
-                  dismissButton: alertItem.dismissButton)
+            .onAppear{
+                viewModel.retrieveUser()
+            }
+            .alert(item: $viewModel.alertItem) { alertItem in
+                Alert(title: alertItem.title,
+                      message: alertItem.message,
+                      dismissButton: alertItem.dismissButton)
+            }
+            
+            
         }
     }
 }

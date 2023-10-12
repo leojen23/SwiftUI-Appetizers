@@ -36,6 +36,10 @@ struct AlertContext {
     
     static let invalidEmailFormat = AlertItem(title: Text("Invalid Email Format"), message: Text("Please provide an email adress in the correct format : email@email.com"), dismissButton: .default(Text("Ok")))
     
+    static let userSaveSuccess = AlertItem(title: Text("Success"), message: Text("Your preferences have been saved successfully"), dismissButton: .default(Text("Ok")))
+    
+    static let userSavedFailure = AlertItem(title: Text("Profile Error"), message: Text("There was an error for retrieving your profile"), dismissButton: .default(Text("Ok")))
+    
 }
 
 
