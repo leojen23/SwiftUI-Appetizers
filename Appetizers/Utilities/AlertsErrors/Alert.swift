@@ -16,6 +16,8 @@ struct AlertItem: Identifiable {
 
 struct AlertContext {
     
+    // NETWORK ALERTS ---------------------------------------
+    
     static let invalidData = AlertItem(title: Text("Server Error"), message: 
                                         Text("The data received from the server was invalid"), dismissButton: .default(Text("Ok")))
     
@@ -25,6 +27,14 @@ struct AlertContext {
     static let invalidURL = AlertItem(title: Text("Server Error"), message: Text("There was an issue. if this persists contact support"), dismissButton: .default(Text("Ok")))
                                       
     static let unableToComplete = AlertItem(title: Text("Server Error"), message: Text("Please check your internet connexion"), dismissButton: .default(Text("Ok")))
+    
+    
+    // ACCOUNT ALERT ---------------------------------------
+    
+    static let invalidForm = AlertItem(title: Text("Invalid Form"), message: Text("Empty fields ..."), dismissButton: .default(Text("Ok")))
+    
+    
+    static let invalidEmailFormat = AlertItem(title: Text("Invalid Email Format"), message: Text("Please provide an email adress in the correct format : email@email.com"), dismissButton: .default(Text("Ok")))
     
 }
 

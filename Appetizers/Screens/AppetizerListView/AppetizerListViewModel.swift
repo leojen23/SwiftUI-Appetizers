@@ -39,13 +39,20 @@ final class AppetizerListViewModel: ObservableObject {
                         
                     case .unableToComplete:
                         self.alertItem = AlertContext.unableToComplete
+                        
+                    case .invalidEmailFormat:
+                        self.alertItem = AlertContext.invalidEmailFormat
+                        
+                    case .invalidForm:
+                        self.alertItem = AlertContext.invalidEmailFormat
                     }
+                }
                     
                 }
             }
         }
     }
-}
+
     
 //    var selectedFramework: Framework? {
 //        didSet{isShowingDetailView = true}
