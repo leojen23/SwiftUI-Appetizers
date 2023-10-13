@@ -9,10 +9,13 @@ import SwiftUI
 
 struct AppetizerDetailView: View {
     
+    @EnvironmentObject var order: Order
+    
     let appetizer: Appetizer
     @Binding var isShowingDetailView: Bool
     
     var body: some View {
+        
         VStack {
             
             AppetizerRemotImage(urlString : appetizer.imageURL)
@@ -39,7 +42,14 @@ struct AppetizerDetailView: View {
             
             Spacer()
             
-            APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to cart").padding(.bottom, 30)
+            
+            Button {
+                order.add(appetizer)
+                isShowingDetailView = false
+            } label: {
+                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to cart")
+            }
+            .padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
         .background(Color(.systemBackground))
@@ -50,6 +60,7 @@ struct AppetizerDetailView: View {
         }, label: {
             XDimissButton()
         }), alignment: .topTrailing)
+        
         
     }
 }
@@ -74,5 +85,5 @@ struct NutritionInfo: View {
 }
 
 #Preview {
-    AppetizerDetailView(appetizer: MockData.sampleAppetizer, isShowingDetailView: .constant(true))
+    AppetizerDetailView(appetizer: MockData.sampleAppetizer, isShowingDetailView: .constant(true)).environmentObject(Order())
 }

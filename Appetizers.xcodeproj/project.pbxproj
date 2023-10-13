@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F0F5C582AD914B00008F6DE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F5C572AD914B00008F6DE /* EmptyState.swift */; };
+		4F0F5C5A2AD91B270008F6DE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F5C592AD91B270008F6DE /* Order.swift */; };
 		4F60805A2AD7BED700C15F82 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6080592AD7BED700C15F82 /* AppetizerDetailView.swift */; };
 		4F60805D2AD80EB600C15F82 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60805C2AD80EB600C15F82 /* APButton.swift */; };
 		4F60805F2AD80FD200C15F82 /* XDimissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60805E2AD80FD200C15F82 /* XDimissButton.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		4F0F5C572AD914B00008F6DE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		4F0F5C592AD91B270008F6DE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		4F6080592AD7BED700C15F82 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		4F60805C2AD80EB600C15F82 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		4F60805E2AD80FD200C15F82 /* XDimissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDimissButton.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			children = (
 				4F84A2C52AD6816E0060FDF5 /* Appetizer.swift */,
 				4F6080642AD823F100C15F82 /* User.swift */,
+				4F0F5C592AD91B270008F6DE /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				4F84A2CC2AD696020060FDF5 /* APError.swift in Sources */,
 				4F84A2BF2AD678470060FDF5 /* AccountView.swift in Sources */,
 				4F84A2D02AD69FC40060FDF5 /* AppetizerListViewModel.swift in Sources */,
+				4F0F5C5A2AD91B270008F6DE /* Order.swift in Sources */,
 				4F6080632AD81EAD00C15F82 /* String+ext.swift in Sources */,
 				4F6080612AD817AF00C15F82 /* AccountViewModel.swift in Sources */,
 				4F84A2C82AD693050060FDF5 /* AppetizerListItem.swift in Sources */,
