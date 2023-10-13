@@ -54,14 +54,5 @@ final class AppetizerListViewModel: ObservableObject {
     }
 
     
-//    var selectedFramework: Framework? {
-//        didSet{isShowingDetailView = true}
-//    }
-//    @Published var isShowingDetailView: Bool = false
-//    
-//    let columns: [GridItem] = [GridItem(.flexible()),
-//                               GridItem(.flexible()),
-//                               GridItem(.flexible())]
-    
     
     
