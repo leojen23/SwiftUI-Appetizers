@@ -11,7 +11,7 @@ struct AppetizerListView: View {
             NavigationView {
                 List(viewModel.appetizers) { appetizer in
                     AppetizerListItem(appetizer: appetizer)
-                        .listRowSeparatorTint(.red)
+                        .listRowSeparator(.hidden)
                         .onTapGesture {
                             viewModel.isShowingDetail = true
                             viewModel.selectedAppetizer = appetizer
@@ -22,7 +22,7 @@ struct AppetizerListView: View {
                     .disabled(viewModel.isShowingDetail ? true : false)
                     
                 }
-                .onAppear {
+                .task {
                     viewModel.getAppetizers()
                 }
                 .blur(radius: viewModel.isShowingDetail ? 15 : 0)
