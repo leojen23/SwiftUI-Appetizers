@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0F5C582AD914B00008F6DE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F5C572AD914B00008F6DE /* EmptyState.swift */; };
 		4F60805A2AD7BED700C15F82 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6080592AD7BED700C15F82 /* AppetizerDetailView.swift */; };
 		4F60805D2AD80EB600C15F82 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60805C2AD80EB600C15F82 /* APButton.swift */; };
 		4F60805F2AD80FD200C15F82 /* XDimissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60805E2AD80FD200C15F82 /* XDimissButton.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0F5C572AD914B00008F6DE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		4F6080592AD7BED700C15F82 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		4F60805C2AD80EB600C15F82 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		4F60805E2AD80FD200C15F82 /* XDimissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDimissButton.swift; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0F5C562AD9149B0008F6DE /* EmptyStates */ = {
+			isa = PBXGroup;
+			children = (
+				4F0F5C572AD914B00008F6DE /* EmptyState.swift */,
+			);
+			path = EmptyStates;
+			sourceTree = "<group>";
+		};
 		4F60805B2AD80E9300C15F82 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +271,7 @@
 		4F84A2E32AD7BB680060FDF5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4F0F5C562AD9149B0008F6DE /* EmptyStates */,
 				4F60805B2AD80E9300C15F82 /* Buttons */,
 				4F84A2C72AD693050060FDF5 /* AppetizerListItem.swift */,
 				4F84A2E52AD7BB920060FDF5 /* Image */,
@@ -438,6 +449,7 @@
 				4F84A2972AD672B40060FDF5 /* AppetizerTabView.swift in Sources */,
 				4F60805F2AD80FD200C15F82 /* XDimissButton.swift in Sources */,
 				4F84A2DA2AD6E4580060FDF5 /* RemoteImage.swift in Sources */,
+				4F0F5C582AD914B00008F6DE /* EmptyState.swift in Sources */,
 				4F60805A2AD7BED700C15F82 /* AppetizerDetailView.swift in Sources */,
 				4F84A2D22AD6A7C40060FDF5 /* Alert.swift in Sources */,
 				4F84A2952AD672B40060FDF5 /* AppetizersApp.swift in Sources */,
