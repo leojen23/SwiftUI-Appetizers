@@ -23,7 +23,6 @@ struct APButton: View {
             .cornerRadius(10)
     }
 }
-
 #Preview {
     APButton(title: "Test")
 }

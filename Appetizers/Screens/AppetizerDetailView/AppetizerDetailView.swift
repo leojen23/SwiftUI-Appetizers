@@ -47,8 +47,10 @@ struct AppetizerDetailView: View {
                 order.add(appetizer)
                 isShowingDetailView = false
             } label: {
-                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to cart")
+                Text("$\(appetizer.price, specifier: "%.2f") - Add to cart")
+//                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to cart")
             }
+            .modifier(StandardButtonStyle())
             .padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
